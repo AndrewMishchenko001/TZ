@@ -1,0 +1,51 @@
+%time-function {
+  transition: background-color $transition-duration $timing-function,
+    color $transition-duration $timing-function,
+    box-shadow $transition-duration $timing-function;
+}
+%time-function-bgc {
+  transition: background-color $transition-duration $timing-function;
+}
+%time-function-color {
+  transition: color $transition-duration $timing-function;
+}
+%time-function-shadow {
+  transition: box-shadow $transition-duration $timing-function;
+}
+%link-style {
+  text-decoration: none;
+  color: getColor('titles');
+
+  &:hover,
+  &:focus {
+    color: getColor('hero');
+  }
+}
+%titles {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  margin-bottom: 50px;
+  text-align: center;
+}
+%list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+%flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+%container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+%button {
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}

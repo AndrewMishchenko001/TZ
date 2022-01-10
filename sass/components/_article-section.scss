@@ -1,0 +1,38 @@
+.article-section {
+  text-align: center;
+  background-image: url(/images/hero2x.jpg);
+  display: block;
+  background-color: getColor("hero");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: inherit;
+  z-index: -1;
+}
+
+.article-title {
+  font-family: $base-font;
+  font-size: 48px;
+  font-weight: $font-weight-bold;
+  margin-bottom: 24px;
+}
+.article-text {
+  font-size: 18px;
+  font-weight: $font-weight-normal;
+  white-space: pre-wrap;
+  line-height: 28px;
+}
+
+.article__container {
+  padding: 0 25px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.article-flex {
+  color: getColor("white");
+
+  text-align: start;
+  max-width: 455px;
+  padding-top: 75px;
+}

@@ -1,0 +1,33 @@
+.slider-wrapper{
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+};
+.slider-link {
+    width: 65px;
+    height: 65px;
+    background-color: white;
+    opacity: 1;
+    border-radius: 50%;
+}
+.slider-link:hover{
+    color: #AAEFF9;
+    // opacity: 1;
+}
+.slider-link-previous{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.slider-link-next{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+    
+}
+.slider-span {
+    // fill: #0A99AB;
+}

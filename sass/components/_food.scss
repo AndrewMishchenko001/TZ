@@ -1,0 +1,106 @@
+.food-section {
+  display: flex;
+  background-color: #e6f5f7;
+  background-image: url(/images/pic117@2x.png);
+  background-size: cover;
+}
+.food {
+  display: inline-block;
+  width: 600px;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+.food-text {
+  margin-left: 145px;
+  &__title{
+    width: 455px;
+    margin-bottom: 24px;
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 48px;
+  }
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+// .food-text__list {
+//   list-style: none;
+//   display: flex;
+//   flex-direction: column;
+// }
+.img-food {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -50%);
+  width: 808px;
+  height: 600px;
+  object-fit: cover;
+}
+.tomato-section {
+  display: block;
+  position: relative;
+
+  background-size: cover;
+
+  background-position: inherit;
+
+  background-image: url(/images/bg@2x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 680px;
+}
+
+.tomato-img {
+  position: absolute;
+  top: 0;
+
+}
+.food-link {
+  padding-left: 50px;
+  position: relative;
+  line-height: 220%;
+}
+.food-link__text{
+  font-family: Roboto;
+  font-size: 18px;
+}
+.food-link:not(:last-child) {
+  margin-bottom: 20px;
+}
+// .icon1 {
+
+// }
+.icon1::before,
+.icon2::before,
+.icon3::before,
+.icon4::before,
+.icon5::before,
+.icon6::before {
+  position: absolute;
+  content: "";
+  background: url(/images/svg1.svg);
+  background-repeat: no-repeat;
+  width: 34px;
+  height: 32px;
+  top: 0;
+  left: 0;
+}
+.icon2::before {
+  background: url(/images/svg2.svg);
+}
+.icon3::before {
+  background: url(/images/svg3.svg);
+}
+.icon4::before {
+  background: url(/images/svg4.svg);
+}
+.icon5::before {
+  background: url(/images/svg5.svg);
+}
+.icon6::before {
+  background: url(/images/svg6.svg);
+}

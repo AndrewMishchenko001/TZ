@@ -1,0 +1,59 @@
+.Hero-section__title {
+  font-weight: $font-weight-bold;
+  margin-bottom: 115px;
+  font-size: 72px;
+  line-height: 1.6;
+  text-align: center;
+  color: getColor("hero");
+
+  @media screen and (min-width: $min-width-desktop) {
+    line-height: 1.36;
+  }
+}
+
+// .Hero-section {
+//   margin: 0 auto;
+//   text-align: center;
+//   background-image: url(/images/hero2x.jpg);
+//   display: block;
+//   background-color: getColor("hero");
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: inherit;
+//   @media screen and (min-width: $min-width-tablet) {
+//     max-width: 768px;
+//     margin: 0 auto;
+
+//     @media (min-device-pixel-ratio: 2),
+//       (-webkit-min-device-pixel-ratio: 2),
+//       (min-resolution: 192dpi),
+//       (min-resolution: 2dppx) {
+//     }
+//   }
+//   @media screen and (min-width: $min-width-desktop) {
+//     max-width: 1600px;
+//     max-height: 600px;
+//     margin: 0 auto;
+//     // justify-content: center;
+
+//     @media (min-device-pixel-ratio: 2),
+//       (-webkit-min-device-pixel-ratio: 2),
+//       (min-resolution: 192dpi),
+//       (min-resolution: 2dppx) {
+//     }
+//   }
+
+.Hero-section__container {
+  margin: 0 auto;
+  @media screen and (max-width: $max-width-mobile) {
+    padding: 118px 60px;
+  }
+  @media screen and (min-width: $min-width-tablet) {
+    padding: 118px 204px;
+    text-align: center;
+  }
+  @media screen and (min-width: $min-width-desktop) {
+    padding: 200px 252px;
+    width: 1200px;
+  }
+}

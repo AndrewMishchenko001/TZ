@@ -1,0 +1,61 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  @extend %list;
+}
+.socials__item {
+  margin-top: 0px;
+  margin-right: 10px;
+}
+
+.socials__link {
+  @extend %time-function-bgc;
+  @extend %time-function-color;
+  display: flex;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  fill: currentColor;
+  color: #afb1b8;
+
+  &:focus,
+  &:hover {
+    color: getColor('white');
+    background-color: getColor('hero');
+  }
+}
+.footer-socials {
+  @media screen and (min-width: $min-width-mobile) {
+    padding: 0 137px;
+  }
+
+  @media screen and (min-width: $min-width-tablet) {
+    padding: 0;
+    &:not(:last-child) {margin-right: 90px;}
+  }
+  @media screen and (min-width: $min-width-desktop) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.footer-socials__link {
+  background-color: rgba(255, 255, 255, 0.1);
+  @extend %time-function-color;
+}
+.footer-socials__icon {
+  fill: getColor('hero');
+
+  margin: 12px;
+}
+.footer-socials__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @extend %list;
+}
+
+

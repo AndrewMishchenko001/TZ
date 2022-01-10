@@ -1,0 +1,56 @@
+.tomato-tumb{
+    padding-top: 63px;
+}
+.contact-form{
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    &__input{
+        background-color: #E6F5F7;
+        padding: 15px 33px;
+        font-family: Roboto;
+        font-size: 14px;
+        border-radius: 10px;
+        border: none;
+        color: #002550;
+    }
+    &__wrapper {
+        display: block;
+        margin-bottom: 10px;
+        height: 50px;
+        
+    }
+    &__button {
+        width: 310px;
+        height: 50px;
+        background-color: #0A99AB;
+        border: none;
+    }
+    &__button:hover {
+        background-color: #5ddbee;
+    }
+}
+.contact-title {
+    color: #AAEFF9;
+    font-family: Roboto-bold, sans-serif;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+.form-check{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+.form-check-input{
+    margin: 0;
+    
+}
+.form-check-label{
+    font-family: Roboto;
+    font-size: 11px;
+    margin-left: 25px;
+    line-height: 135%;
+}

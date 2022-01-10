@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: $base-font;
+  line-height: 1.14;
+  background-color: getColor("white");
+  color: getColor("titles");
+  font-size: 14px;
+  font-weight: $font-weight-normal;
+  font-style: normal;
+  overflow-x: hidden;
+}
+body.modal-open {
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+.img-block {
+  display: block;
+  max-width: 100%;
+  background: transparent;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media screen and (min-width: $min-width-mobile) {
+    width: 480px;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: $min-width-tablet) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: $min-width-desktop) {
+    width: 1200px;
+  }
+}
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: $min-width-desktop) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
